@@ -6,7 +6,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "resources")
-public class point {
+public class Point {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
